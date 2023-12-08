@@ -8,13 +8,14 @@ return(
     
          <Fragment>
           <header className={classes.header}>
-           <h1>BalajiMeals</h1> 
+           <h1>Lokesh Meals</h1> 
            <HeaderCartButton/>
           </header>
           
           <div className={classes['main-image']}>
             <img src={mealsImage} alt="A Table full of delicious food!" />
           </div>
+          
          </Fragment>
 );
 }
