@@ -21,7 +21,7 @@ const DUMMY_MEALS = [
     id: 'm3',
     name: 'Kakka muttai Omelette',
     description: 'Kakka Muttai omelette with exclusive toppings of Lokesh Meals',
-    recommended: 'Recommended for Childrens',
+    recommended: 'Recommended for Children',
     price: 80,
   },
   {
