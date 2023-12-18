@@ -6,7 +6,7 @@ const DUMMY_MEALS = [
   {
     id: 'm1',
     name: 'Idly Upma (Surya Vamsam Special)',
-    description: 'A great food with left over Idlis',
+    description: 'A great food made with left over Idlis',
     recommended: 'Recommended for newly married couples',
     price: 40,
   },
