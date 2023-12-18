@@ -8,7 +8,7 @@ return(
     
          <Fragment>
           <header className={classes.header}>
-           <h1>Lokesh Meals</h1> 
+           <h1>Balaji Meals</h1> 
            <HeaderCartButton onClick={props.onShowCart}/>
           </header>
           
