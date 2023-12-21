@@ -9,12 +9,12 @@ const HeaderCartButton = props => {
     
     let quantity = 0;
 
-    cartCtx.items.forEach(item =>{
+     cartCtx.items.forEach(item =>{
         quantity = quantity + Number(item.quantity)
     })
     
 
-    // const numberOfCartItems = cartCtx.items.reduce((curNumber, item)=> {
+    //  const numberOfCartItems = cartCtx.items.reduce((curNumber, item)=> {
     //     return curNumber + item.amount;
     // }, 0)
 

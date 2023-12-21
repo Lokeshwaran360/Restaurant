@@ -8,9 +8,9 @@ const MealItemForm = (props) => {
 
     const addItemToCart = (e) => {
          e.preventDefault();
-         const quantity = document.getElementById('amount_' +props.id).value;
+         const quantity = document.getElementById(`amount_${props.id}`).value;
          cartCntx.addItem({...props.item, quantity: quantity})
-         console.log(cartCntx.items.quantity)
+         
          
     }
     
@@ -18,7 +18,7 @@ const MealItemForm = (props) => {
         <form className={classes.form}>
             
             <Input label='Quantity' input={{
-                id: 'amount_' +props.id,
+                id: `amount_${props.id}`,
                 type : 'Number',
                 min : '1',
                 max : '5',
